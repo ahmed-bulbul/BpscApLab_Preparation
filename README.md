@@ -180,5 +180,5 @@ PHP থেকে সাধারণত থাকেনা তবে কিছু
 ==============================================
 My Suggestions 
 ===============================================
->> MATRIX Related problem
->> Pointer related problem
+1 MATRIX Related problem
+2 Pointer related problem
