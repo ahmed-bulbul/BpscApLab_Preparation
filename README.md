@@ -142,7 +142,7 @@ Show the average marks of each student (There was a output table) like output ta
 
 b.
 Find the name of all students who have got marks> 59. (5 marks)
-=================================================================================
+
 BPSC এর অ্যাসিস্ট্যান্ট প্রোগ্রামার" [Assistant Programmer] স্ট্যান্ডার্ড এপটিটিউড টেস্ট [Standard aptitude test] সম্পর্কে ধারনা: 
 
 পরীক্ষা শুরুর আগে কম্পিউটরে codeblock / Xampp ঠিকমতো কাজ করছে কিনা অবশ্যই চেক করে নিতে হবে
