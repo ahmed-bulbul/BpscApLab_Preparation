@@ -12,9 +12,9 @@ struct Node *createLinkedList(int arr[],int size);
 
 int main(){
 
-    int a[]={5,10,30};
+    int a[]={5,10,30,50,60};
     struct Node *head;
-    head=createLinkedList(a,3);
+    head=createLinkedList(a,5);
 
     while(head!=NULL){
         printf("%d->",head->data);
@@ -40,7 +40,7 @@ struct Node *createLinkedList(int arr[],int size){
             current=temp;
         }else{
             current->next=temp;
-            current=current->next;
+            current=temp;
         }
     }
 
