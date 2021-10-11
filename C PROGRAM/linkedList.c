@@ -1,4 +1,6 @@
 
+// simple linked List
+
 #include<stdio.h>
 #include<stdlib.h>
 
