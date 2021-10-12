@@ -1,0 +1,12 @@
+==================User Management==========
+
+>> Create User 
+sudo useradd username
+>> GET ALL User List 
+cat /etc/passwd
+>> Remove user
+sudo userdel username
+>>Change User passsword
+sudo passwd username
+
+==========Group Management================
