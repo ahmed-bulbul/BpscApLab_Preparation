@@ -35,7 +35,7 @@ sudo vi /etc/group
 7 5  5 
 
 7== Owner of the file (4=Read,2=Write,1=Execute)
-5== Group of the file
+5== Group of the file (read,execute)
 5== anybody(Internet users of random users)
 
 >> File Permission 
@@ -44,3 +44,10 @@ sudo chmod 775 myFile -R
 sudo chown -R username folder/fileName [E.g sudo chown -R techuser1 myDir
 >> change group
 sudo chgrp -R admin myDir/
+
+>> Permission
+ls -l filename[Show permission of file]
+chmod 777 filename [Owner = 7=4(read)+2(write)+1(execute),
+Group = 7=4(read)+2(write)+1(execute),Others = 7=4(read)+2(write)+1(execute)]
+
+chmod 472 filename [4=Read for Owner, 7=r+w+x for group, 2=write for others]
