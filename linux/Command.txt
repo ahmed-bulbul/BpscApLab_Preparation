@@ -2,11 +2,45 @@
 
 >> Create User 
 sudo useradd username
+
 >> GET ALL User List 
 cat /etc/passwd
+
 >> Remove user
 sudo userdel username
+
 >>Change User passsword
 sudo passwd username
 
+>> Go To Another User 
+su username [E.g su techuser1]
+
 ==========Group Management================
+>> create Group
+sudo groupadd user groupname  e.g---->>[like user,admin]
+
+>> Delete group
+sudo groupdel name
+
+>> Add user in a group
+sudo adduser username groupname [e.g: sudo adduser techuser1 admin]
+
+>> delete user from group
+sudo deluser username groupname[e.g sudo deluser techuser2 user]
+
+>> SHow user under group
+sudo vi /etc/group
+
+=====================FILE PERMISSION==============
+7 5  5 
+
+7== Owner of the file (4=Read,2=Write,1=Execute)
+5== Group of the file
+5== anybody(Internet users of random users)
+
+>> File Permission 
+sudo chmod 775 myFile -R
+>> Change Owner File/Foler
+sudo chown -R username folder/fileName [E.g sudo chown -R techuser1 myDir
+>> change group
+sudo chgrp -R admin myDir/
