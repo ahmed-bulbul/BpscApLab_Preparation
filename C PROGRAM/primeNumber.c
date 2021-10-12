@@ -12,7 +12,7 @@ int main(){
         }
      //   printf("value of i = %d and j =  %d\n",i,j);
         if(i==j){
-            printf("%d \n",i);
+            printf("%d ",i);
         }
     }
     return 0;
