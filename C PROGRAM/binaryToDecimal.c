@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&num);
     while(num){
         rem = num%10;
-        if(rem==1){
+        if(rem==1){ // if remainder then 2^place
             dec=dec+(pow(2,place));
         }
         num=num/10;
