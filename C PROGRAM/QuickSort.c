@@ -51,5 +51,7 @@ int main(){
     printf(" %d",number[i]);
 
 
+/// drotoi
+
     return 0;
 }
