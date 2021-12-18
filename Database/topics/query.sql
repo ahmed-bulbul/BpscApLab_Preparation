@@ -48,3 +48,6 @@ UPDATE EmployeeDetails SET empId = 121 WHERE managerId = 321;
 --  Q1: write a sql query to fetch the count of employees working in project P1
 Select count(*) from EmployeeDetails where empId in (select empId from EmplployeeSalary where project = 'P1');
 
+
+-- Q2: write a sql query to fetch project-wise count of employees sorted by project count desc order
+ SELECT Project, COUNT(*) AS proj_count FROM EmplployeeSalary GROUP BY Project ORDER BY proj_count DESC;
